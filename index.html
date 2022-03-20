@@ -1,0 +1,51 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="stylesheet" href="css/screen.css" />
+    <link rel="stylesheet" href="css/input.css" />
+    <title>Gimin's Momentum</title>
+  </head>
+  <body>
+    <div class="screen">
+      <div class="main-screen">
+          <div class="first-screen">
+            <h2 id="clock">00:00:00</h2>
+            <h1 class="hidden" id="greeting"></h1>
+          </div>
+          <div class="second-screen">
+              <form class="hidden" id="login-form">
+                <input class="input" type="text" placeholder="Write Your Name" />
+              </form>
+              <div class="todo-box">
+                <form  id="todo-form">
+                    <input class="input" type="text" placeholder="Write Your Todo" />
+                  </form>
+                  <ul id="todo-list"></ul>
+              </div>
+              <div class="wordle-box">
+              </div>
+          </div>
+          <div class="last-box">
+            <div id="quote">
+                <span></span>
+                <span></span>
+              </div>
+              <div id="weather">
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+              </div>
+          </div>
+    </div>
+    <script src="js/background.js"></script>
+    <script src="js/quotes.js"></script>
+    <script src="js/clock.js"></script>
+    <script src="js/weather.js"></script>
+    <script src="js/todo.js"></script>
+    <script src="js/greeting.js"></script>
+  </body>
+</html>
